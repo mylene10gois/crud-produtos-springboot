@@ -18,25 +18,25 @@ Este projeto é uma aplicação full stack com Java (Spring Boot) no backend e A
 
 #Backend (Spring Boot)
 
-1. **Pré-requisitos:**
+1. Pré-requisitos:
    - Java 17+ instalado
    - Maven instalado
 
-2. **Clonar o repositório e entrar na pasta do backend:**
+2. Clonar o repositório e entrar na pasta do backend:
 
 ```bash
 git clone https://github.com/mylene10gois/crud-produtos-springboot.git
 cd crud-produtos-springboot
 ```
 
-3. **Rodar a aplicação:**
+3. Rodar a aplicação:
 
 ```bash
 ./mvnw spring-boot:run   # Linux/macOS
 mvnw.cmd spring-boot:run # Windows
 ```
 
-4. **Acesso:**
+4. Acesso:
    - API REST: `http://localhost:8080/produtos`
    - Console do banco de dados H2: `http://localhost:8080/h2-console`
      - JDBC URL: `jdbc:h2:mem:produtosdb`
@@ -47,24 +47,26 @@ mvnw.cmd spring-boot:run # Windows
 
 #Frontend (Angular)
 
-1. **Pré-requisitos:**
+1. Pré-requisitos:
    - Node.js + npm instalados
    - Angular CLI instalado (`npm install -g @angular/cli`)
 
-2. **Instalar dependências:**
+2. Instalar dependências:
 
 ```bash
+git clone https://github.com/mylene10gois/frontend-angular-produtos
 cd frontend-angular-produtos
 npm install
+
 ```
 
-3. **Executar a aplicação:**
+3. Executar a aplicação:
 
 ```bash
 ng serve
 ```
 
-4. **Acessar no navegador:**
+4. Acessar no navegador:
    - `http://localhost:4200`
 
 ---
