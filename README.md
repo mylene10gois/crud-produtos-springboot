@@ -1,4 +1,4 @@
-Este projeto é uma aplicação full stack com **Java (Spring Boot)** no backend e **Angular** no frontend, que permite realizar operações de cadastro, listagem, edição e exclusão de produtos.
+Este projeto é uma aplicação full stack com Java (Spring Boot) no backend e Angular no frontend, que permite realizar operações de cadastro, listagem, edição e exclusão de produtos.
 
 #Tecnologias Utilizadas
 
@@ -25,7 +25,7 @@ Este projeto é uma aplicação full stack com **Java (Spring Boot)** no backend
 2. **Clonar o repositório e entrar na pasta do backend:**
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/mylene10gois/crud-produtos-springboot.git
 cd crud-produtos-springboot
 ```
 
